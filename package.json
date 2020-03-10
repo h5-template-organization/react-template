@@ -1,8 +1,8 @@
 {
   "name": "react-template-h5",
   "version": "1.0.0",
-  "description": "react-template-h5",
-  "author": "12832@cscb.cn",
+  "author": "color",
+  "description": "这个是一个react脚手架,如果有任何建议或者想法随时跟我联系，rtx13314",
   "repository": "",
   "scripts": {
     "start": "npm run dev",
