@@ -1,35 +1,23 @@
-import "./index.less";
+import './index.less'
 
-import React, { Component } from "react";
-import cls from "classnames";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import cls from 'classnames'
+// import PropTypes from 'prop-types'
 
-import { Button } from "antd-mobile";
+// import { Button } from "antd-mobile"
 
-const prefixCls = "page_index";
+const prefixCls = 'page_index'
 class Index extends Component {
-  static propTypes = {
-    history: PropTypes.object,
-    count: PropTypes.number,
-    increment: PropTypes.func,
-    // history: PropTypes.object,
-    incrementAsync: PropTypes.func
-  };
-  static defaultProps = {};
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className={cls(`${prefixCls}`)}>
         <div>
           <span className="color-primary">This is index.</span>
+          <a href="#/detail">去detail</a>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Index;
+export default Index

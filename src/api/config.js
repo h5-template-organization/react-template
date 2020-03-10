@@ -1,5 +1,5 @@
-// let devBaseURL = 'http://162.16.2.158:8080/'
-let devBaseURL = 'http://bcs.link-us.com.cn/directBank/158/'
+let devBaseURL = 'http://162.16.2.158:8080/'
+// let devBaseURL = 'http://bcs.link-us.com.cn/directBank/158/'
 let sitBaseURL = ''
 let uatBaseURL = ''
 let prodBaseURL = ''

@@ -14,7 +14,7 @@
   "dependencies": {
     "@rematch/core": "~1.1.0",
     "antd-mobile": "~2.2.14",
-    "axios": "~0.17.1",
+    "axios": "^0.17.1",
     "classnames": "~2.2.6",
     "qs": "~6.6.0",
     "rc-form": "^2.4.11",
@@ -41,7 +41,7 @@
     "copy-webpack-plugin": "~4.0.1",
     "cross-env": "~5.2.0",
     "css-loader": "~0.28.0",
-    "eslint": "~4.15.0",
+    "eslint": "^4.15.0",
     "eslint-config-standard": "~10.2.1",
     "eslint-friendly-formatter": "~3.0.0",
     "eslint-loader": "~1.7.1",
@@ -72,8 +72,8 @@
     "url-loader": "~0.5.8",
     "version-bump-prompt": "~4.2.1",
     "webpack": "~3.6.0",
-    "webpack-bundle-analyzer": "~2.9.0",
-    "webpack-dev-server": "~2.9.1",
+    "webpack-bundle-analyzer": "^2.9.2",
+    "webpack-dev-server": "^2.9.7",
     "webpack-merge": "~4.1.0",
     "zip-folder": "~1.0.0"
   },

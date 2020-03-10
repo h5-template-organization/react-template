@@ -35,7 +35,7 @@ export default class Index extends Component {
   render() {
     return (
       <div className={cls(`${prefixCls}`)}>
-        <NavBar onLeftClick={this.backClick.bind(this)} rightContent={this.props.edit ? <span onClick={this.edit.bind(this)}><img className='editIcon' src={require('@/assets/imgs/edit.png')}/></span> : ''} mode="light" icon={<Icon type="left" />}>{this.props.title}</NavBar>
+        <NavBar onLeftClick={this.backClick.bind(this)} rightContent={this.props.edit ? <span onClick={this.edit.bind(this)}></span> : ''} mode="light" icon={<Icon type="left" />}>{this.props.title}</NavBar>
       </div>
     )
   }

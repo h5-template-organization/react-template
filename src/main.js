@@ -7,13 +7,13 @@ import webVersionCheck from 'web-version-check'
 
 import RouterView from './router'
 import store from './store'
-// TODO: 首页需加判断不显示导航栏
-// import HeaderNavbar from '@/components/HeaderNavbar'
+
+import HeaderNavbar from '@/components/HeaderNavbar'
 
 import { version } from '../static/version.json'
 import { assetsSubDirectory } from '@/utils/helper'
-import apis from '@/api/index'
-React.Component.prototype.$apis = apis
+// import apis from '@/api/index'
+// React.Component.prototype.$apis = apis
 
 // if (process.env.API_ENV === 'dev' || process.env.API_ENV === 'sit') {
 //   const VConsole = require('vconsole')
@@ -30,12 +30,12 @@ webVersionCheck({
   }
 })
 
-// console.log(`app: ${version} - ${process.env.NODE_ENV}`)
-// console.log(document.getElementsByClassName('page_index'))
+console.log(`app: ${version} - ${process.env.NODE_ENV}`)
+console.log(document.getElementsByClassName('page_index'))
 const Root = () => (
   <Provider store={store}>
     <React.Fragment>
-      {/* <HeaderNavbar /> */}
+      <HeaderNavbar />
       <RouterView />
     </React.Fragment>
   </Provider>
